@@ -9,9 +9,6 @@ public class SOLAR_GUI_CONTROLLER {
     @FXML
     private Label SOLAR_GUI_TEXT;
 
-    //@FXML
-            //
-
 
     @FXML
     public void displayStats(ActionEvent actionEvent) {
