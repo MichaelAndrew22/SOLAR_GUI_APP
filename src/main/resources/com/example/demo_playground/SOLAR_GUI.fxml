@@ -6,17 +6,20 @@
 <?import javafx.scene.layout.HBox?>
 
 <VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.demo_playground.SOLAR_GUI_CONTROLLER">
+      fx:controller="com.example.demo_playground.SOLAR_GUI_CONTROLLER" style="-fx-background-color: #afdc95;">
 
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-    <Label fx:id="SOLAR_GUI_TEXT"/>
-
-
-    <Button fx:id="button" text="BUTTON" onAction="#handleButtonAction"/>
+    <Label text="SOLAR GUI" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <HBox spacing="20.0">
+        <Button text="Start" onAction="#start" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+        <Button text="Stop" onAction="#stop" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    </HBox>
+    <Label text="Status:" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Label fx:id="status" text="Stopped" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Label text="Log:" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <Label fx:id="log" text="Log" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
 
 
 </VBox>
+
 
 

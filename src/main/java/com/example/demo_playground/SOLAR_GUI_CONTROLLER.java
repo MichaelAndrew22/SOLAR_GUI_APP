@@ -37,4 +37,9 @@ public class SOLAR_GUI_CONTROLLER {
     }
 
 
+    public void start(ActionEvent actionEvent) {
+    }
+
+    public void stop(ActionEvent actionEvent) {
+    }
 }
